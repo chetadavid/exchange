@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./images/picture.jpg');
+  background-size: 35% auto; 
+  background-position: center; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center; 
+  background-color: rgba(196, 196, 196, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%; 
+  margin-bottom: 0px; 
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  width: 8%; 
+  display: flex;
+  padding: 5px ; 
+  background-color: #0577f8; 
+  color: white; 
+  text-align: center; 
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+h1:hover{
+  background-color: black;
+}
+
+.connect{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0d0d0d;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: calc(100% - 16px);
+  font-size: 16px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 20px;
+}
+
